@@ -11,4 +11,4 @@ client.send("GET / HTTP/1.1\r\nHost: google.com\r\n\r\n")  #sending data
 
 response  = client.recvfrom(4096) # reciving data
 
-print 
+print response
